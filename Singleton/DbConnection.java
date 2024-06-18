@@ -2,7 +2,7 @@ package Singleton;
 public class DbConnection{
 //	Eager Intialization
 //	private static final DbConnection Instance = new DbConnection() ;
-	public DbConnection() {
+	private DbConnection() {
 		
 	}
 	
